@@ -2,7 +2,6 @@ package com.example.SocialMedia_API.controller;
 
 import com.example.SocialMedia_API.dto.RegistrationDTO;
 import com.example.SocialMedia_API.service.UserService;
-import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api")
-public class UserController {
+public class RegistrationController {
 
     private final UserService userService;
 
